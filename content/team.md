@@ -12,14 +12,18 @@ and because its filename is `about`, this page lives at the URL `/about`.
 
 ### Project lead
 Mikołaj Leszczuk [ORCID](https://orcid.org/0000-0001-9123-1039)
+
 AGH University of Krakow/Faculty of Computer Science, Electronics and Telecommunications
+
 Poland
 
+
 ### Partners
-#### Poland
+#### Poland (AGH University of Science and Technology, Krakow)
 Local lead: Mikołaj Leszczuk [ORCID](https://orcid.org/0000-0001-9123-1039)
+
 Dawid Juszka [ORCID](https://orcid.org/0000-0002-7122-260X)
-AGH University of Science and Technology, Krakow, Poland
+
 
 
 #### France

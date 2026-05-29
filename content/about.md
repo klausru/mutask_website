@@ -3,7 +3,7 @@ title: About
 order: 2
 ---
 
-# About the project
+# About the Project
 
 This project develops European AI-driven methods to translate and adapt scholarly content -
 bridging linguistic gaps, shaping accessible knowledge for different audiences, and ensuring

@@ -1,0 +1,46 @@
+/* style.css — your customisations on top of simple.css.
+   simple.css does the heavy lifting (typography, layout, dark mode);
+   keep site-specific tweaks here so updating the framework stays easy. */
+
+/* Recolour the theme by overriding simple.css's variables.
+   Change these two lines to re-brand the whole site. */
+:root {
+  --accent: #b5533b;          /* links, buttons, highlights */
+  --accent-hover: #8f3f2c;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #e08a72;
+    --accent-hover: #f0a892;
+  }
+}
+
+/* Header / brand */
+header .brand {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+}
+header .tagline {
+  margin-top: 0.2rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* Navigation: space links out and mark the current page */
+header nav {
+  margin-top: 1rem;
+}
+header nav a {
+  margin: 0 0.4rem;
+  padding-bottom: 2px;
+}
+header nav a[aria-current="page"] {
+  border-bottom: 2px solid var(--accent);
+  font-weight: 600;
+}
+
+/* A little more breathing room in the body text */
+main {
+  line-height: 1.7;
+}

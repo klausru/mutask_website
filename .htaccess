@@ -1,0 +1,35 @@
+# Serve index.php for the bare "/" URL.
+DirectoryIndex index.php
+
+# ----------------------------------------------------------------------
+# Clean URLs:  /about  ->  index.php?page=about
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Leave real files (CSS, images, etc.) and directories untouched.
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Everything else is routed through index.php, passing the path as ?page=
+    RewriteRule ^(.+?)/?$ index.php?page=$1 [QSA,L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Hardening: don't let the raw source files be downloaded directly.
+# (PHP reads them from disk anyway; this only blocks HTTP access.)
+# ----------------------------------------------------------------------
+<FilesMatch "\.(md|php)$">
+    Require all denied
+</FilesMatch>
+
+# ...but index.php must stay reachable, since the rewrite points to it.
+<Files "index.php">
+    Require all granted
+</Files>
+
+# Optional niceties
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>

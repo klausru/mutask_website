@@ -1,46 +1,209 @@
-/* style.css — your customisations on top of simple.css.
-   simple.css does the heavy lifting (typography, layout, dark mode);
-   keep site-specific tweaks here so updating the framework stays easy. */
-
-/* Recolour the theme by overriding simple.css's variables.
-   Change these two lines to re-brand the whole site. */
+/* MUTASK customisations on top of simple.css. */
 :root {
-  --accent: #b5533b;          /* links, buttons, highlights */
-  --accent-hover: #8f3f2c;
+  --mutask-green: #00693C;
+  --mutask-green-dark: #004E2D;
+  --mutask-blue: #3DADE2;
+  --mutask-red: #E2001A;
+  --mutask-grey: #6B7280;
+  --mutask-ink: #17211C;
+  --mutask-paper: #FBFAF4;
+  --mutask-soft: #ECF5F0;
+  --accent: var(--mutask-green);
+  --accent-hover: var(--mutask-green-dark);
+  --accent-bg: #EAF4EF;
+  --border: #B9D3C7;
+  --bg: var(--mutask-paper);
+  --text: var(--mutask-ink);
+  --text-light: #56635D;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent: #e08a72;
-    --accent-hover: #f0a892;
+    --bg: #121A16;
+    --accent-bg: #172820;
+    --text: #ECF5F0;
+    --text-light: #B8C7C0;
+    --border: #305241;
+    --accent: #7FDBA9;
+    --accent-hover: #A7EAC4;
+    --accent-text: #0D1812;
   }
 }
 
-/* Header / brand */
+body {
+  background:
+    radial-gradient(circle at top left, rgba(61, 173, 226, 0.16), transparent 30rem),
+    radial-gradient(circle at bottom right, rgba(226, 0, 26, 0.10), transparent 28rem),
+    var(--bg);
+}
+
+body > header {
+  background:
+    linear-gradient(135deg, rgba(0, 105, 60, 0.14), rgba(61, 173, 226, 0.12)),
+    var(--accent-bg);
+  border-bottom: 1px solid var(--border);
+  padding-top: 2rem;
+}
+
 header .brand {
-  font-size: 1.5rem;
-  text-decoration: none;
   color: var(--text);
+  font-size: 1.7rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
 }
+
 header .tagline {
-  margin-top: 0.2rem;
   color: var(--text-light);
-  font-style: italic;
+  font-style: normal;
+  margin-top: 0.35rem;
 }
 
-/* Navigation: space links out and mark the current page */
 header nav {
-  margin-top: 1rem;
-}
-header nav a {
-  margin: 0 0.4rem;
-  padding-bottom: 2px;
-}
-header nav a[aria-current="page"] {
-  border-bottom: 2px solid var(--accent);
-  font-weight: 600;
+  margin-top: 1.2rem;
 }
 
-/* A little more breathing room in the body text */
+header nav a {
+  border-radius: 999px;
+  margin: 0.2rem;
+  padding: 0.35rem 0.75rem;
+  text-decoration: none;
+}
+
+header nav a[aria-current="page"] {
+  background: var(--accent);
+  color: var(--accent-text);
+  font-weight: 700;
+}
+
 main {
   line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: var(--text);
+}
+
+.hero {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.88), rgba(234, 244, 239, 0.82)),
+    linear-gradient(135deg, rgba(0, 105, 60, 0.12), rgba(61, 173, 226, 0.12));
+  border: 1px solid var(--border);
+  border-radius: 1.4rem;
+  box-shadow: 0 1.4rem 3rem rgba(23, 33, 28, 0.08);
+  margin: 1rem 0 2.5rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero {
+    background:
+      linear-gradient(135deg, rgba(20, 34, 27, 0.92), rgba(19, 45, 39, 0.84)),
+      linear-gradient(135deg, rgba(0, 105, 60, 0.24), rgba(61, 173, 226, 0.18));
+  }
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 7vw, 4.7rem);
+  letter-spacing: -0.05em;
+  margin: 0.3rem 0 1rem;
+}
+
+.eyebrow {
+  color: var(--mutask-green);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.lead {
+  color: var(--text-light);
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  max-width: 56rem;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 0;
+}
+
+.button.secondary {
+  background: transparent;
+  color: var(--accent);
+}
+
+.card-grid,
+.partner-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  margin: 1.5rem 0 2rem;
+}
+
+.card,
+.partner {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .partner {
+    background: rgba(18, 26, 22, 0.72);
+  }
+}
+
+.card h3,
+.partner h3 {
+  font-size: 1.35rem;
+  margin-top: 0;
+}
+
+.card-green,
+.partner-green {
+  border-top: 0.35rem solid var(--mutask-green);
+}
+
+.card-blue,
+.partner-blue {
+  border-top: 0.35rem solid var(--mutask-blue);
+}
+
+.card-red,
+.partner-red {
+  border-top: 0.35rem solid var(--mutask-red);
+}
+
+.pipeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.pipeline span {
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-weight: 700;
+  padding: 0.45rem 0.8rem;
+}
+
+footer {
+  color: var(--text-light);
+}
+
+@media only screen and (max-width: 720px) {
+  header nav a {
+    display: inline-block;
+  }
+
+  .hero {
+    border-radius: 1rem;
+  }
 }

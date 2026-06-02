@@ -5,18 +5,11 @@ order: 6
 
 # Contact
 
-For general enquiries about MUTASK, please use:
+For project coordination enquiries, please contact:
 
-**Email:** [info@mutask.eu](mailto:info@mutask.eu)
+**Mikołaj Leszczuk**<br>
+AGH University of Krakow<br>
+Faculty of Computer Science, Electronics and Telecommunications<br>
+**Email:** [mikolaj.leszczuk@agh.edu.pl](mailto:mikolaj.leszczuk@agh.edu.pl)
 
-## Coordinator
-
-Mikołaj Leszczuk
-
-AGH University of Krakow
-
-Faculty of Computer Science, Electronics and Telecommunications
-
-## Website Contributions
-
-This website is maintained as Markdown content in GitHub. Contributors should edit the files in the `content/` directory and submit changes through the agreed GitHub workflow.
+Consortium-wide website and media contacts will be updated after the partners confirm the public communication workflow.

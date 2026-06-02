@@ -3,50 +3,46 @@ title: Team
 order: 4
 ---
 
-# About us
+# Team
 
-Replace this text with whatever you like. The file is `content/about.md`,
-and because its filename is `about`, this page lives at the URL `/about`.
+MUTASK is coordinated by AGH University of Krakow and developed by a consortium from Poland, France and Switzerland. The team combines multimedia systems, computational linguistics, machine translation, media education, audience research and strategic communication.
 
-## Project lead and partners
+## Coordinator
 
-### Project lead
-Mikołaj Leszczuk [ORCID](https://orcid.org/0000-0001-9123-1039)
+### AGH University of Krakow, Poland
 
-AGH University of Krakow/Faculty of Computer Science, Electronics and Telecommunications
+**Local lead and project coordinator:** Mikołaj Leszczuk [ORCID](https://orcid.org/0000-0001-9123-1039)
 
-Poland
+Faculty of Computer Science, Electronics and Telecommunications
 
+**Research team:** Dawid Juszka [ORCID](https://orcid.org/0000-0002-7122-260X)
 
-### Partners
-#### Poland (AGH University of Science and Technology, Krakow)
-Local lead: Mikołaj Leszczuk [ORCID](https://orcid.org/0000-0001-9123-1039)
+AGH leads work on paper ingestion, parsing, multimodal extraction, document structure detection and media/video production.
 
-Dawid Juszka [ORCID](https://orcid.org/0000-0002-7122-260X)
+## Consortium Partners
 
+<div class="partner-grid">
+<article class="partner partner-blue">
+<h3>LORIA, Université de Lorraine, France</h3>
+<p><strong>Local lead:</strong> Kamel Smaïli <a href="https://orcid.org/0000-0002-4237-7303">ORCID</a></p>
+<p><strong>Co-investigator:</strong> Ammar Oulamara</p>
+<p>LORIA contributes domain NLP, semantic indexing, knowledge graphs, machine translation, retrieval and personalization logic.</p>
+</article>
+<article class="partner partner-red">
+<h3>PHZH and Swiss partner network, Switzerland</h3>
+<p><strong>Local lead:</strong> Klaus Rummler <a href="https://orcid.org/0000-0002-8379-244X">ORCID</a></p>
+<p><strong>Project contributors:</strong> Colette Schneider Stingelin <a href="https://orcid.org/0000-0001-6106-0312">ORCID</a>; Cristina Grisot <a href="https://orcid.org/0000-0003-0684-4442">ORCID</a></p>
+<p>PHZH contributes audience-oriented transposition, personas, focus groups, media education, strategic communication and dissemination.</p>
+</article>
+</div>
 
+## Working Structure
 
-#### France
-Local lead: Kamel Smaïli [ORCID](https://orcid.org/0000-0002-4237-7303)
-Université de Lorraine: Nancy, Loria UFR Mathématiques et Informatique
+The consortium works around shared MUTASK modules:
 
+- **AGH:** document processing and media production;
+- **LORIA:** semantic processing, translation, retrieval and personalization;
+- **PHZH:** audience profiles, educational adaptation and dissemination;
+- **Shared:** expert review, evaluation and release checks.
 
-#### Switzerland
-Local lead: Klaus Rummler [ORCID](https://orcid.org/0000-0002-8379-244X)
-Zurich University of Teacher Education
-
-Colette Schneider Stingelin [ORCID](https://orcid.org/0000-0001-6106-0312)
-FHNW University of Applied Sciences and Arts
-
-Cristina Grisot [ORCID](https://orcid.org/0000-0003-0684-4442)
-National Coordinator CLARIN-CH (Linguistic Research Infrastructure LiRI); University of Zürich
-
-
-<!---
-The block at the very top of this file, between the `---` lines, controls
-how the page behaves:
-
-- `title` — the label shown in the menu and the browser tab
-- `order` — lower numbers appear first in the menu
-- `nav` — set to `false` to keep a page reachable by URL but hidden from the menu
---->
+Personnel listings will be updated as recruitment and partner onboarding progress.

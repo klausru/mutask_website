@@ -3,44 +3,59 @@ title: About
 order: 2
 ---
 
-# About the Project
+# About MUTASK
 
-This project develops European AI-driven methods to translate and adapt scholarly content -
-bridging linguistic gaps, shaping accessible knowledge for different audiences, and ensuring
-that vital research truly reaches the people who need it. We confront three main hurdles:
-1. numerous researchers and students are restricted by language barriers, limiting engagement
-with important scientific findings;
-2. even when translation exists, content often remains too dense or too specialized for lay audiences; and
-3. there is a lack of effective workflows that carry these adapted materials to their intended communities.
+MUTASK, **Multimodal Translation and Adaptation of Scientific Knowledge for Global Accessibility**, is a European research project developing AI-driven methods to translate, adapt and communicate scholarly content.
 
+The project addresses the CHIST-ERA **Science in Your Own Language** vision. In MUTASK, "own language" means more than a language code. It also includes a person's prior knowledge, discipline, goals, doubts, vocabulary and preferred way of learning.
 
-To tackle these challenges, our consortium integrates state-of-the-art machine translation,
-automated summarization, semantic indexing, and video-based storytelling into one
-streamlined workflow. A core goal is to reshape complex academic documents - research
-articles, conference proceedings, outreach texts - into dynamically narrated videos, detailed
-yet understandable summaries, and localized translations accessible at multiple expertise
-levels. Users can pause videos to request clarifications, ensuring a truly adaptive learning
-experience. This “human touch” sits at the heart of our approach: we emphasize media
-education, audience research, and strategic communication, so that each translated and
-transformed output genuinely resonates with target groups ranging from schoolchildren to lay
-citizens and policy makers.
-By joining specialists in computational linguistics, media education, and strategic
-communication from Poland, France, and Switzerland, we will deliver practical tools that fit
-current publishing systems while upholding Open Science standards. Crucially, we plan to
-involve the ultimate audiences - students, journalists, nonprofits - in testing these solutions.
-The result is a production system that seamlessly converts cutting-edge science into richly
-engaging, clearly communicated, and culturally adapted outputs for broader society.
-Ultimately, we foster more inclusive, democratic, and trusted science by ensuring that
-knowledge in any language or format remains comprehensible and widely disseminated.
+## The Challenge
 
+Scholarly knowledge often fails to reach the people who could use it because:
 
-<!---
-## Front matter explained
+1. researchers, students and wider audiences face language barriers;
+2. translated scientific content can remain too dense or too specialized;
+3. adapted outputs are rarely connected to a reliable workflow that reaches the intended communities.
 
-The block at the very top of this file, between the `---` lines, controls
-how the page behaves:
+## Research Direction
 
-- `title` — the label shown in the menu and the browser tab
-- `order` — lower numbers appear first in the menu
-- `nav` — set to `false` to keep a page reachable by URL but hidden from the menu
---->
+MUTASK integrates machine translation, automated summarization, semantic indexing, audience adaptation and video-based storytelling into one workflow. The aim is to reshape complex academic documents, including research articles, conference papers and outreach texts, into outputs such as:
+
+- localized translations;
+- detailed but understandable summaries;
+- adapted explanations for different audience profiles;
+- scripts, visuals, narrated segments and subtitles;
+- interactive video experiences where users can ask for clarifications.
+
+The project is not a generic summarizer, a generic video generator or a one-size-fits-all outreach tool. It studies how scientific meaning survives translation, transposition to an audience and transformation into media.
+
+## The MUTASK Lifecycle
+
+The current technical model follows one paper through the whole chain:
+
+<div class="pipeline">
+<span>Ingest</span>
+<span>Structure</span>
+<span>Understand</span>
+<span>Adapt</span>
+<span>Produce</span>
+<span>Review</span>
+</div>
+
+AGH focuses on ingestion, parsing, extraction, document structure and media production. LORIA focuses on NLP, semantic indexing, translation, retrieval and personalization. PHZH contributes audience research, pedagogical transposition, dissemination and feedback design. Review and release decisions are shared across the consortium.
+
+## Audience And Evaluation
+
+The human side of the project is central. MUTASK plans to involve target groups such as students, researchers, journalists, nonprofits, teachers, policy actors and citizens in testing adapted outputs.
+
+Quality is evaluated across several dimensions:
+
+- scientific fidelity and traceability to the source paper;
+- terminology and translation quality;
+- audience fit, clarity and cognitive load;
+- multimodal coherence across narration, visuals, subtitles and interaction;
+- usefulness and comprehension for the declared user profile.
+
+## Open Science
+
+MUTASK aims to deliver practical methods that fit current publishing and research infrastructures while supporting Open Science standards, reproducibility and reusable data formats.

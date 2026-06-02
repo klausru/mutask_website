@@ -3,8 +3,12 @@
 https://www.mutask.eu
 
 This site is built from plain **Markdown** files. There is no database and no
-login — to change the site you edit text files in this repository, and the
-changes go live automatically a few seconds after you commit.
+login. Public pages live in `content/`; repository workflow notes belong in
+this README, not in public website content.
+
+If you have direct write access to this repository, changes go live after your
+commit is merged to `main`. If you do not have direct write access, use a fork
+and open a pull request.
 
 ## Editing a page
 
@@ -13,6 +17,45 @@ changes go live automatically a few seconds after you commit.
 3. Edit the text and click **Commit changes**.
 
 That's it — the live site updates on its own.
+
+## Fork-based contribution workflow
+
+Use this workflow if you cannot push directly to `klausru/mutask_website`.
+
+```bash
+cd /path/to/mutask_website
+git remote add fork git@github.com:YOUR-USER/mutask_website.git
+git push -u fork your-branch-name
+```
+
+Then open a pull request from `YOUR-USER:your-branch-name` to
+`klausru:main`.
+
+With GitHub CLI:
+
+```bash
+gh auth login -h github.com
+gh repo fork klausru/mutask_website --clone=false
+git remote add fork git@github.com:YOUR-USER/mutask_website.git
+git push -u fork your-branch-name
+gh pr create --repo klausru/mutask_website --head YOUR-USER:your-branch-name --base main
+```
+
+## Local preview
+
+A plain Markdown preview shows only the Markdown content. It will not apply the
+site template from `templates/layout.php`, the navigation, or styling from
+`assets/style.css`.
+
+To preview the actual site locally, run:
+
+```bash
+php -S 127.0.0.1:8765
+```
+
+Then open `http://127.0.0.1:8765/?page=home`,
+`http://127.0.0.1:8765/?page=about`, `http://127.0.0.1:8765/?page=team`, or
+`http://127.0.0.1:8765/?page=contact`.
 
 ## Adding a new page
 

@@ -31,7 +31,16 @@ AGH leads work on paper ingestion, parsing, multimodal extraction, document stru
 <article class="partner partner-red">
 <h3>PHZH and Swiss partner network, Switzerland</h3>
 <p><strong>Local lead:</strong> Klaus Rummler <a href="https://orcid.org/0000-0002-8379-244X">ORCID</a></p>
-<p><strong>Project contributors:</strong> Colette Schneider Stingelin <a href="https://orcid.org/0000-0001-6106-0312">ORCID</a>; Cristina Grisot <a href="https://orcid.org/0000-0003-0684-4442">ORCID</a></p>
+<p><strong>Project contributors:
+<ul>
+  <li>
+   </strong> Colette Schneider Stingelin <a href="https://orcid.org/0000-0001-6106-0312">ORCID</a><br />
+  University of Applied Sciences Northwestern Switzerland FHNW
+  </li>
+<li>
+ Cristina Grisot <a href="https://orcid.org/0000-0003-0684-4442">ORCID</a>
+</li>
+</ul>
 <p>PHZH contributes audience-oriented transposition, personas, focus groups, media education, strategic communication and dissemination.</p>
 </article>
 </div>

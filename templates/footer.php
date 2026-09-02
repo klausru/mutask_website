@@ -14,7 +14,7 @@
         <p class="footer-funding-text">
           MUTASK is funded under CHIST-ERA Call 2025, Science in Your Own Language. CHIST-ERA Project ID: CHIST-ERA-25-SOL-06.<br />
           The Polish partner is funded by the National Science Centre, Poland, under grant 2025/07/Y/ST6/00133.<br />
-          The Swiss partner is funded by the Swiss National Science Foundation (SNSF/FNS/SNF) https://data.snf.ch/grants/grant/238347.
+          The Swiss partner is funded by the Swiss National Science Foundation (SNSF/FNS/SNF) <a href="https://data.snf.ch/grants/grant/238347" target="_blank">https://data.snf.ch/grants/grant/238347</a>.
         </p>
     </div>
 

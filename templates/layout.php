@@ -16,6 +16,9 @@
 </head>
 <body>
     <header>
+       <img class="footer-eu-logo"
+             src="assets/imgs/MUTASK_logo_sm.png"
+             alt="MUTASK logo">
         <a class="brand" href="/">
             <strong><?= htmlspecialchars(SITE_NAME) ?></strong>
         </a>

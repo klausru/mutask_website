@@ -251,7 +251,7 @@ footer {
 .footer-logos img {
   height: 3rem;
   max-width: 100%;
-  width: auto;
+  width: 200px;
 }
 
 .footer-copyright {

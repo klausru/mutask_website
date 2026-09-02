@@ -19,7 +19,7 @@
     </div>
 
     <div class="footer-logos">
-     <ul><li><img src="/assets/imgs/chist-era-logo.svg" alt="CHIST-ERA Call 2025, Science in Your Own Language"></li>
+     <ul>
          <li><img src="/assets/imgs/ncn-logo.svg" alt="Logo NCN"></li>
          <li><img src="/assets/imgs/PHZH_logo_ganz.svg" alt="Zurich University of Teacher Education (PH Zürich)"></li>
        <li><img src="/assets/imgs/fhnw-logo-de.svg" alt="University of Applied Sciences and Arts Northwestern Switzerland - FHNW"></li>

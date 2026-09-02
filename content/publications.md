@@ -2,6 +2,9 @@
 title: Publications
 order: 5
 ---
+
+# Publications
+
 <div id="pubs">Loading publications…</div>
 <script>
 fetch('https://api.zotero.org/groups/6602460/collections/7LPFJ5HR/items/top?format=json&include=bib&style=apa&linkwrap=1&sort=date&direction=desc&limit=100')

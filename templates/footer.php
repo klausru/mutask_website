@@ -19,11 +19,11 @@
     </div>
 
     <div class="footer-logos">
-        <img src="/assets/imgs/chist-era-logo.svg" alt="CHIST-ERA Call 2025, Science in Your Own Language">
-        <img src="/assets/imgs/ncn-logo.svg" alt="Logo NCN">
-        <img src="/assets/imgs/PHZH_logo_ganz.svg" alt="Zurich University of Teacher Education (PH Zürich)">
-      <img src="/assets/imgs/fhnw-logo-de.svg" alt="University of Applied Sciences and Arts Northwestern Switzerland - FHNW">
-      <img src="/assets/imgs/CLARIN-CH-logo.png" alt="CLARIN-CH">
+        <p><img src="/assets/imgs/chist-era-logo.svg" alt="CHIST-ERA Call 2025, Science in Your Own Language"></p>
+         <p><img src="/assets/imgs/ncn-logo.svg" alt="Logo NCN"></p>
+         <p><img src="/assets/imgs/PHZH_logo_ganz.svg" alt="Zurich University of Teacher Education (PH Zürich)"></p>
+       <p><img src="/assets/imgs/fhnw-logo-de.svg" alt="University of Applied Sciences and Arts Northwestern Switzerland - FHNW"></p>
+       <p><img src="/assets/imgs/CLARIN-CH-logo.png" alt="CLARIN-CH"></p>
     </div>
 
     <p class="footer-copyright"><?= htmlspecialchars(SITE_FOOTER) ?></p>

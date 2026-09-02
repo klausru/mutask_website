@@ -37,7 +37,7 @@
     </main>
 
     <footer>
-        <p><?= htmlspecialchars(SITE_FOOTER) ?></p>
+        <?php include __DIR__ . '/footer.php'; ?>
     </footer>
 </body>
 </html>

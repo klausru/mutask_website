@@ -254,6 +254,10 @@ footer {
   width: 200px;
 }
 
+.footer-logos li {
+  list-style: none;
+}
+
 .footer-copyright {
   color: var(--text-light);
   font-size: 0.85rem;

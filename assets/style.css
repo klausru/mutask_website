@@ -207,3 +207,68 @@ footer {
     border-radius: 1rem;
   }
 }
+
+/* ---- Footer: funding acknowledgement + partner logos -------------- */
+footer {
+  border-top: 1px solid var(--border);
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+.footer-funding {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.footer-eu-logo {
+  flex: 0 0 auto;
+  height: auto;
+  max-width: 100%;
+  width: 12rem;
+}
+
+.footer-funding-text {
+  color: var(--text-light);
+  flex: 1 1 22rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.footer-logos img {
+  height: 3rem;
+  max-width: 100%;
+  width: auto;
+}
+
+.footer-copyright {
+  color: var(--text-light);
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* If any logo is dark-only and disappears in dark mode, uncomment this to
+   sit them on a white chip:
+@media (prefers-color-scheme: dark) {
+  .footer-eu-logo,
+  .footer-logos img {
+    background: #fff;
+    border-radius: 0.4rem;
+    padding: 0.35rem;
+  }
+}
+*/

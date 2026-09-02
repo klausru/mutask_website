@@ -264,6 +264,12 @@ footer {
   margin-top: 1rem;
   text-align: center;
 }
+.csl-bib-body .csl-entry {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  margin-bottom: 0.75em;
+  line-height: 1.5;
+}
 
 /* If any logo is dark-only and disappears in dark mode, uncomment this to
    sit them on a white chip:

@@ -21,6 +21,7 @@
     <div class="footer-logos">
      <ul>
          <li><img src="/assets/imgs/ncn-logo.svg" alt="Logo NCN"></li>
+         <li><img src="/assets/imgs/Logo_Uni_Lorraine.svg" alt="LORIA logo"></li>
          <li><img src="/assets/imgs/PHZH_logo_ganz.svg" alt="Zurich University of Teacher Education (PH Zürich)"></li>
        <li><img src="/assets/imgs/fhnw-logo-de.svg" alt="University of Applied Sciences and Arts Northwestern Switzerland - FHNW"></li>
        <li><img src="/assets/imgs/CLARIN-CH-logo.png" alt="CLARIN-CH"></li>

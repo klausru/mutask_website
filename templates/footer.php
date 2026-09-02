@@ -1,0 +1,30 @@
+<?php
+/**
+ * templates/footer.php — the site footer.
+ * Included by templates/layout.php
+ *
+ * The copyright line at the bottom comes from SITE_FOOTER in config.php.
+ */
+?>
+<footer>
+    <div class="footer-funding">
+        <img class="footer-eu-logo"
+             src="assets/imgs/chist-era-logo.svg"
+             alt="Co-funded by the European Union">
+        <p class="footer-funding-text">
+          MUTASK is funded under CHIST-ERA Call 2025, Science in Your Own Language. CHIST-ERA Project ID: CHIST-ERA-25-SOL-06.<br />
+          The Polish partner is funded by the National Science Centre, Poland, under grant 2025/07/Y/ST6/00133.<br />
+          The Swiss partner is funded by the Swiss National Science Foundation (SNSF/FNS/SNF) https://data.snf.ch/grants/grant/238347.
+        </p>
+    </div>
+
+    <div class="footer-logos">
+        <img src="/assets/imgs/chist-era-logo.svg" alt="CHIST-ERA Call 2025, Science in Your Own Language">
+        <img src="/assets/imgs/ncn-logo.svg" alt="Logo NCN">
+        <img src="/assets/imgs/PHZH_logo_ganz.svg" alt="Zurich University of Teacher Education (PH Zürich)">
+      <img src="/assets/imgs/fhnw-logo-de.svg" alt="University of Applied Sciences and Arts Northwestern Switzerland - FHNW">
+      <img src="/assets/imgs/CLARIN-CH-logo.png" alt="CLARIN-CH">
+    </div>
+
+    <p class="footer-copyright"><?= htmlspecialchars(SITE_FOOTER) ?></p>
+</footer>

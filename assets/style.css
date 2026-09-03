@@ -223,6 +223,9 @@ footer {
   margin-bottom: 1.5rem;
   text-align: left;
 }
+.footer-funding li {
+  list-style: none;
+}
 
 .footer-eu-logo {
   flex: 0 0 auto;

@@ -8,9 +8,28 @@
 ?>
 <footer>
     <div class="footer-funding">
+        <ul>
+        <li>  
         <img class="footer-eu-logo"
              src="assets/imgs/chist-era-logo.svg"
-             alt="Co-funded by the European Union">
+             alt="Funded by the European Union withing the Horizon Europe scheme">
+        </li>
+        <li>
+        <img class="footer-eu-logo"
+             src="/assets/imgs/ncn-logo.svg"
+             alt="Co-funded by the National Science Center Poland">
+        </li>
+        <li>
+   <img class="footer-eu-logo"
+             src="/assets/imgs/ANR_logo.svg"
+             alt="Co-funded by the Agence Nationale de la Recherche, France">
+        </li>
+        <li>
+   <img class="footer-eu-logo"
+             src="/assets/imgs/snf_logo.svg"
+             alt="Co-funded by the Swiss National Science Science Foundation">
+        </li>
+        </ul>
         <p class="footer-funding-text">
           MUTASK is funded under CHIST-ERA Call 2025, Science in Your Own Language. CHIST-ERA Project ID: CHIST-ERA-25-SOL-06.<br />
           The Polish partner is funded by the National Science Centre, Poland, under grant 2025/07/Y/ST6/00133.<br />
@@ -20,7 +39,7 @@
 
     <div class="footer-logos">
      <ul>
-         <li><img src="/assets/imgs/ncn-logo.svg" alt="Logo NCN"></li>
+         <li><img src="/assets/imgs/agh_logo.svg" alt="AGH logo"></li>
          <li><img src="/assets/imgs/Logo_Uni_Lorraine.svg" alt="LORIA logo"></li>
          <li><img src="/assets/imgs/PHZH_logo_ganz.svg" alt="Zurich University of Teacher Education (PH Zürich)"></li>
        <li><img src="/assets/imgs/fhnw-logo-de.svg" alt="University of Applied Sciences and Arts Northwestern Switzerland - FHNW"></li>

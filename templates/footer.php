@@ -39,9 +39,15 @@
         </li>
         </ul>
         <p class="footer-funding-text">
-          MUTASK is funded under CHIST-ERA Call 2025, Science in Your Own Language. <a href="https://www.chistera.eu/projects/mutask" target="_blank">CHIST-ERA Project ID: CHIST-ERA-25-SOL-06.</a><br />
-          The Polish partner is funded by the National Science Centre, Poland, under grant <a href="https://ncn.gov.pl/sites/default/files/pliki/chistera2025-leszczuk-en.pdf" target="_blank">CN project number: 2025/07/Y/ST6/00133.</a><br />
-        The French partner is funded by the Agence Nationale de la Recherche, ANR project number: ANR-25-CHR4-0001.<br />
+          MUTASK is funded under CHIST-ERA Call 2025, Science in Your Own Language. <a href="https://www.chistera.eu/projects/mutask" target="_blank">CHIST-ERA Project ID: CHIST-ERA-25-SOL-06.</a>
+            <br />
+            <br />
+          The Polish partner is funded by the National Science Centre, Poland, under grant <a href="https://ncn.gov.pl/sites/default/files/pliki/chistera2025-leszczuk-en.pdf" target="_blank">CN project number: 2025/07/Y/ST6/00133.</a>
+            <br />
+            <br />
+        The French partner is funded by the Agence Nationale de la Recherche, ANR project number: ANR-25-CHR4-0001.
+            <br />
+            <br />
           The Swiss partner is funded by the Swiss National Science Foundation (SNSF/FNS/SNF) <a href="https://data.snf.ch/grants/grant/238347" target="_blank">https://data.snf.ch/grants/grant/238347</a>.
         </p>
     </div>

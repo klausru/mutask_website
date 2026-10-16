@@ -38,10 +38,11 @@ AGH leads work on paper ingestion, parsing, multimodal extraction, document stru
   University of Applied Sciences Northwestern Switzerland FHNW
   </li>
 <li>
- Cristina Grisot <a href="https://orcid.org/0000-0003-0684-4442">ORCID</a>
+ Cristina Grisot <a href="https://orcid.org/0000-0003-0684-4442">ORCID</a><br />
+  CLARIN-CH (University of Zurich)
 </li>
 </ul>
-<p>PHZH contributes audience-oriented transposition, personas, focus groups, media education, strategic communication and dissemination.</p>
+<p>PHZH contributes audience-oriented transposition, personas, focus groups, media education, strategic communication and dissemination as well as Open Science compliance and Data Management Plan.</p>
 </article>
 </div>
 
